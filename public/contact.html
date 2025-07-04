@@ -1,6 +1,29 @@
-<h1>Contact Me</h1>
-<p>Tel: 03284161406</p>
-<a href = "https://www.instagram.com/cutsbymusab/" target="_blank"> <img height = "40"src = "../assets/insta_logo.png" alt = "instagram logo"> </a>
-<a href = "https://pk.linkedin.com/in/musabuppal" target="_blank"> <img height = "40" src = "../assets/linkedin_logo.png" alt = "linkedin logo"> </a>
-
-<p>Email:<a href=" mailto:musabismail02@gmail.com">musabismail02@gmail.com</a></p>
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="discription" content="contact page">
+        <meta name="language" content="en">
+        <link rel="icon" type ="image/x-icon" href="../assets/contact.png">
+    </head>
+    <body style="background-color:#263E30;margin: 0; padding: 0;" >
+        <main>
+            <form action="submit.php">
+                <div style="position: absolute; top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            height: 400px; width: 300px; background-color: aliceblue;
+            border-radius: 15px;">
+                    <input type="text" 
+                    style="padding: 10px; border-radius:10px; margin-top:40px;margin-left: 50px; " placeholder="Your Name" required>
+                    <input type="email" 
+                    style="padding: 10px; border-radius:10px; margin-top:15px;margin-left: 50px; " placeholder="Your Email" required>
+                    <input type="number" 
+                    style="padding: 10px; border-radius:10px; margin-top:15px;margin-left: 50px; " placeholder="Your Phone no" required>
+                    <textarea id="text-area" name="problem-description" rows="5" style="padding: 10px; border-radius:10px; margin-top:15px;margin-bottom:30px; margin-left: 50px;columns: 10; "></textarea>
+                    <input type="submit" value="submit" style="margin-left: 100px; height: 40px;width: 100px;border-radius: 10px;">
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

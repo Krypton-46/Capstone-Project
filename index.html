@@ -1,58 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="icon" type ="image/x-icon" href="./assets/" >
-        <title>My Resume</title>
-    </head>
-    <body>
+<html lang="en" style="margin: 0; padding: 0;">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="./assets/default.png">
+    <title>My Resume</title>
+  </head>
+  <body style="margin: 0; padding: 0; background-color: #EEECE5;">
+
+    <aside>
+      <div style="width: 300px; height: 100vh; float: left; background-color: #263E30;  margin: 0; padding: 0; position:fixed;">
         <header>
-            <h1 id="title">Musab Ismail</h1>
+          <h1 id="title" style="color: #ece4e2; font-size: 40px; text-align: center; font-weight: bold; margin: 0; padding: 20px 0;">
+            Musab Ismail
+          </h1>
+          <div style="display: flex; justify-content: center;align-items: center; padding: 0; margin: 0;">
+            <img src="./assets/me.png" height="200" width="200"
+                 style="border-radius: 50%; object-fit: cover; margin: 0; padding: 0;">
+          </div>
         </header>
-        <img height = "100" src = "https://t3.ftcdn.net/jpg/07/24/59/76/360_F_724597608_pmo5BsVumFcFyHJKlASG2Y2KpkkfiYUU.jpg">
-        <h2>Summary</h2>
-        <p>I am a hardworking and discipline person Always striving for the best.</p>
-        <hr/>
-        <!-- Education -->
-        <section>
-            <h2>Education</h2>
-            <ul>
-                <li>Bs Software Engineering (on going) from PUCIT</li>
-            </ul>
-            <h2>Work Experience</h2>
-            <ul>
-                <li>Video Editor Internship</li>
-                <p>June - September 2024</p>
-                <ul>
-                    <li>Edit the online webinar</li>
-                    <li>create shorts from the webinar</li>
-                </ul>
-            </ul>
-        </section>
-        <hr/>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>Leadership ⭐️⭐️⭐️⭐️</li>
-                <li>Premiere Pro ⭐️⭐️⭐️⭐️</li>
-                <li>After Effects⭐️⭐️</li>
-            </ul>
-        </section>
-        <hr/>
-        <section>
-            <h2>Others</h2>
-            <ul>
+        <div style="display: flex; justify-content: center;align-items: center;  margin-top: 30px;">
+            <a href = "https://www.instagram.com/cutsbymusab/" target="_blank"> <img height = "60"src = "./assets/insta_logo.png" alt = "instagram logo"> </a>
+            <a href = "https://pk.linkedin.com/in/musabuppal" target="_blank"> <img height = "70" src = "./assets/linkedin_logo.png" alt = "linkedin logo"> </a>
+            <a href="https://github.com/Krypton-46" target="_blank"><img style="border-radius: 30px;" height="55" src ="./assets/github.png"></a>
+        </div>
+         <section>
+            <div style="display: flex; justify-content: center;align-items: center; color: #ece4e2;">
+                <ul style="margin: 0; padding-left: 20px; padding-top: 20px;list-style: none;">
                 <nav>
-                
-                    <li><a href="./public/hobbies.html" target="_blank">My hobbies</a></li>
-                    <li><a href="./public/contact.html" target="_blank">Contact me</a></li>
+                    <li style=" margin-bottom: 15px;" ><a style="color: #ece4e2; text-decoration: none; font-size: 20px;" href="./public/hobbies.html" title="hobbies">My hobbies</a></li>
+                    <li style="margin-bottom: 15px; ;" ><a style="color: #ece4e2; text-decoration: none ;font-size: 20px" href="./public/achievement.html" title="achievements" >Achievements</a></li>
+                    <li style="margin-bottom: 15px; ;" ><a style="color: #ece4e2; text-decoration: none ;font-size: 20px" href="./public/contact.html" title="contact info">Contact me</a></li>
                 </nav>
+                </ul>
+            </div>
+      </section>
+      </div>
+    </aside>
+    <main style="margin-left: 310px; padding: 20px 0 0 20px;">
+        <!--Summary and intro-->
+        <section>
+            <h2 style="margin-top: 80px; padding: 0;text-align: center;font-size: 40px;font-weight: bolder;">Summary</h2>
+            <p style="margin-top: 30; padding: 0;font-size: 20px;padding-right: 50px;">My name is Musab, and I am currently pursuing a Bachelor’s degree in <span style="background-color: #C1B4A1 ; border-radius: 5px; padding:1px">Software Engineering</span> from PUCIT, batch 2023–2027. I grew up in Lahore, where I developed a strong sense of curiosity and adaptability. From an early age, I was drawn to exploring various fields and skills. Over time, this interest evolved into a passion for diverse activities such as <span style="background-color: #C1B4A1 ; border-radius: 5px; padding:1px">coding, gaming, and video editing.</span> Each of these interests has shaped my perspective and fueled my ambition to learn and grow continuously. Whether it’s solving complex coding problems, immersing myself in creative video projects, or enjoying the strategic aspects of gaming, I thrive on the challenges that come with my pursuits. My journey reflects a blend of creativity, technical expertise, and a deep desire to innovate and explore.</p>
+            <hr style="margin: 10px 0;">
+        </section>
+      <!-- Education -->
+      <section>
+        <h2 style="margin: 0; padding: 0;">Education</h2>
+        <ul style="margin-top: 10px; padding-left: 20px; font-size: 20px;">
+            <li>Matric (Comp Sci) from Al-Dars High School</li>
+            <li>Inter (Pre-Eng) from Punjab College</li>
+            <li>Bs Software Engineering (on going) from PUCIT</li>
+        </ul>
+       </section>
+        <hr/>
+        <section>
+            <h2 style="margin: 10px 0 0 0; padding: 0;">Work Experience</h2>
+            <ul style="margin-top: 10px; padding-left: 20px;font-size: 20px;">
+            <li>Video Editor Internship</li>
+            <p style="margin: 0;">June - September 2024</p>
+            <ul style="margin: 0; padding-left: 20px;">
+                <li>Edit the online webinar</li>
+                <li>Create shorts from the webinar</li>
+            </ul>
             </ul>
         </section>
-        <hr/>
-        <a href="#title">Jump to Top</a>
-        <footer>
-            <p>&copycopyright @ musab_uppal_46</p>
-        </footer>
-    </body>
-</html> 
+      <hr style="margin: 10px 0;">
+      <section>
+        <h2 style="margin: 0; padding: 0;">Skills</h2>
+        <ul style="margin-top: 10px; padding-left: 20px;font-size: 20px;">
+          <li>Discipline ⭐️⭐️⭐️⭐️</li>
+          <li>Premiere Pro ⭐️⭐️⭐️⭐️</li>
+          <li>After Effects ⭐️⭐️</li>
+        </ul>
+      </section>
+      <hr/>
+      <footer>
+        <p style="margin: 0; padding: 10px 0;">&copy; copyright @musab_uppal_46</p>
+      </footer>
+    </main>
+  </body>
+</html>
